@@ -1,0 +1,191 @@
+
+
+
+#navigation{
+    min-width: 500px;
+    .flex{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 0;
+        &:hover{
+            transform: scale(1.01);
+        }
+    }
+    .navbar-brand{
+        height: auto;
+    }
+    .hover {
+        display: inline-block;
+        position: relative;
+        color: #23153C;
+      }
+      
+      .hover::after {
+        content: '';
+        position: absolute;
+        width: 90%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 5px;
+        left: 0;
+        background-color: #23153C;
+        transform-origin: bottom right;
+        transition: transform 0.20s ease-out;
+      }
+      
+      .hover:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      
+}
+
+.nav-text, .nav-item{
+    font-family: 'Rubik'; 
+}
+
+#home{
+    color: white;
+    font-family: 'Roboto';
+}
+.flex{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+
+    h1{
+        margin-top: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3.2rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+        font-family: 'Rubik';
+        font-size: 1.4rem;
+        margin: 70px;
+        margin-bottom: 170px;
+    }   
+}
+
+#inception{
+    background: url('./assets/iitb-2.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    margin-bottom: 30px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    h1{
+        color: #23153C;
+        font-size: 3rem;
+        font-weight: bold;
+        padding:  50px 0;
+        /* margin-bottom: 50px;
+        margin-top: 20px; */
+    }
+}
+
+#inception, p{
+    font-size: 20px;
+    max-width: 950px;
+    padding-bottom: 50px;
+}
+
+
+#teams{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    /* background-color: #2A629A; */
+    background-color: hsl(210, 57%, 28%);
+    h1{
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        color: #E2DFD0;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    .team{
+        margin-top: 30px;
+    }
+    
+    .col-lg-4{
+        text-align: center;
+        img{
+            width: auto;
+            &:hover{
+                transform: scale(1.01);
+            }
+        }
+    } 
+    h3{
+        color: #fff;
+        font-family: 'Rubik';
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    .team p{
+        text-align: left;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        p{
+            margin: 0;
+        }
+    }
+    .custom-btn{
+        
+        background-color: hsl(0, 0%, 95%);
+        color: black;
+        font-family: 'Roboto';
+        padding: 9px 15px;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top:2px solid #eee;
+        margin: 1em 0;
+        padding: 0;
+      }
+       
+}
+
+
+#contactus{
+    padding: 70px;
+    text-align: center;
+    i {
+        color: #1f4871;
+        margin: 0 20px;
+        &:hover{
+            color: hsl(210, 57%, 18%);
+        }
+    }
+    p{
+        margin: 20px auto;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+
+}
+
