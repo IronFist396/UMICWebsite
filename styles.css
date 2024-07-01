@@ -2,7 +2,9 @@
 
 
 #navigation{
-    min-width: 500px;
+    /* min-width:700px; */
+    width: 100%;
+    
     .flex{
         display: flex;
         flex-direction: row;
@@ -38,12 +40,11 @@
         transform: scaleX(1);
         transform-origin: bottom left;
       }
-      
+    .nav-text, .nav-item{
+        font-family: 'Rubik'; 
+    }      
 }
 
-.nav-text, .nav-item{
-    font-family: 'Rubik'; 
-}
 
 #home{
     color: white;
@@ -159,6 +160,7 @@
         font-family: 'Roboto';
         padding: 9px 15px;
     }
+
     hr {
         display: block;
         height: 1px;
@@ -176,7 +178,7 @@
     text-align: center;
     i {
         color: #1f4871;
-        margin: 0 20px;
+        margin: 0 15px;
         &:hover{
             color: hsl(210, 57%, 18%);
         }
