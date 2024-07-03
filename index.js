@@ -56,3 +56,4 @@ btn2.addEventListener("mouseout", () => {
     btn2.style.backgroundColor = "hsl(0, 0%, 95%)";
     btn2.innerHTML = "Know More";
 })
+    

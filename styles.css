@@ -159,6 +159,7 @@
         color: black;
         font-family: 'Roboto';
         padding: 9px 15px;
+        margin-bottom: 50px;
     }
 
     hr {
@@ -190,4 +191,3 @@
     }
 
 }
-
